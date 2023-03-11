@@ -1,0 +1,1 @@
+This project is designed to test CSS and HTML skills learned from The Odin Project. Specifically, it is the assignment from https://www.theodinproject.com/lessons/foundations-landing-page, which puts your flexbox knowledge to the test.
