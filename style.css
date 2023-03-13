@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 
 body {
 	box-sizing: border-box;
@@ -92,4 +95,43 @@ button {
 	font-size: 18px;
 	border-radius: 8px;
 	border: 0;
+}
+
+.info-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 52px 32px;
+}
+
+.info-section-header {
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+.info-section .card-container {
+	display: flex;
+	justify-content: space-between;
+	width: 850px;
+	margin: 50px 0px;
+}
+
+.card-box {
+	width: 180px;
+	height: 180px;
+	border-radius: 16px;
+	border: solid 4px #575bfa;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 170px;
+}
+
+.card-subtext {
+	text-align: center;
+	margin: 12px 0px;
+	font-size: 18px;
 }
