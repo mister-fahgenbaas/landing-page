@@ -1,0 +1,95 @@
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, simpsonfont;
+}
+
+.top-section {
+	background: #1f2937;
+	color: #f9faf8;
+	padding: 5px 236px;
+}
+
+.header {
+	display: flex;
+	padding: 16px 0;
+	justify-content: space-between;
+}
+
+.header .logo {
+	font-weight: bold;
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+a:link { text-decoration: none; }
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	font-family: Roboto, simpsonfont;
+	padding: 115px 0px;
+	/*gap: 227px;*/
+}
+
+.hero .text {
+	flex: 1;
+	/*margin: 120px 0px;*/
+	/*padding-right: 215px*/
+}
+
+.hero .img-placeholder {
+	flex: 1;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #6d727d;
+}
+
+.hero .text .main {
+	font-weight: bolder;
+        font-size: 48px;
+	padding-right: 31px;
+	margin-bottom: 4px;
+}
+
+.hero .text .subtext {
+	color: #e5e7eb;
+	font-size: 18px;
+	padding-right: 100px;
+	margin-bottom: 16px;
+}
+
+button {
+	padding: 8px 40px;
+	background: #575bfa;
+	color: #f9faf8;
+	font-weight: bold;
+	font-family: Roboto, simpsonfont;
+	font-size: 18px;
+	border-radius: 8px;
+	border: 0;
+}
