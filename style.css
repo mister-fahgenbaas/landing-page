@@ -86,15 +86,19 @@ a:active { text-decoration: none; }
 	margin-bottom: 16px;
 }
 
-button {
-	padding: 8px 40px;
+.blue-rounded {
 	background: #575bfa;
 	color: #f9faf8;
-	font-weight: bold;
 	font-family: Roboto, simpsonfont;
-	font-size: 18px;
 	border-radius: 8px;
 	border: 0;
+}
+
+
+button {
+	padding: 8px 40px;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .info-section {
@@ -134,4 +138,51 @@ button {
 	text-align: center;
 	margin: 12px 0px;
 	font-size: 18px;
+}
+
+.quote-section {
+	background-color: #e5e7eb;
+	color: #1f2937;
+	padding: 135px 350px;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.quote-source {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: end;
+	padding-right: 60px;
+}
+
+.footer {
+	background-color: #1f2937;
+	padding: 16px;
+	font-size: 20px;
+	text-align: center;
+	color: #f9faf8;
+	padding: 45px;
+}
+
+.call-to-action-section {
+	padding: 108px 235px;
+}
+
+.call-to-action {
+	padding: 52px 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.call-to-action-header {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.call-to-action-subtext {
+	font-size: 20px;
 }
